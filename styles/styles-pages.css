@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+/*==== general ====*/
+.grid-article {
+  display: grid;
+  grid-template-columns: 2fr 5fr 2fr;
+}
+
+.container-middle {
+  max-width: 130rem;
+  margin: 4.8rem auto;
+}
+
+.img-primary {
+  margin: 4.8rem 0;
+  width: 100%;
+}
+
+.primary-heading,
+.secondary-heading {
+  color: #233580;
+}
+
+.secondary-heading,
+.tertiary-heading {
+  font-family: "Cormorant", Garamond, Times, "Times New Roman", serif;
+}
+
+.primary-heading {
+  font-size: 3.6rem;
+  font-weight: 700;
+}
+
+.secondary-heading {
+  font-size: 3.6rem;
+  font-weight: 600;
+  margin-bottom: 3.6rem;
+  padding-bottom: 3.6rem;
+  position: relative;
+}
+
+.tertiary-heading {
+  font-size: 2.8rem;
+  color: #333;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+
+.main-text {
+  font-size: 1.7rem;
+  letter-spacing: 0.025rem;
+  line-height: 1.7;
+  margin-bottom: 2rem;
+  color: #000;
+}
+
+.secondary-heading::after {
+  border-bottom: 1px solid #233580;
+  bottom: 0;
+  left: 0;
+  content: "";
+  position: absolute;
+  width: 50px;
+}
+
+.img-article {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  margin-bottom: 2rem;
+}
+
+.chapter-links {
+  list-style: none;
+  padding: 0;
+  max-width: 90%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.chapter-links li {
+  line-height: 1.8;
+}
+
+.chapter-links li a:link,
+.chapter-links li a:visited {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: #233580;
+}
+
+.chapter-links li a:hover,
+.chapter-links li a:active {
+  border-bottom: 2px #233580 solid;
+  padding-bottom: 5px;
+  transition: all 0.2s;
+}
+
+/*==== coronation page ====*/
+.coronation-photo-box {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.05),
+      rgba(0, 0, 0, 0.15),
+      rgba(0, 0, 0, 0.55),
+      rgba(0, 0, 0, 0.65)
+    ),
+    url("../images/coronation.jpg");
+}
+
+.weekend-photo-box {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.05),
+      rgba(0, 0, 0, 0.15),
+      rgba(0, 0, 0, 0.55),
+      rgba(0, 0, 0, 0.65)
+    ),
+    url("../images/coronation-weekend.jpg");
+}
+
+.cards {
+  margin: 6.4rem auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 3.6rem;
+}
+
+.Weekend {
+  height: 50rem;
+}
+
+.card-date {
+  color: #fff;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
