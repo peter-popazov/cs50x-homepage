@@ -8,18 +8,3 @@ bntNav.addEventListener("click", function () {
 const currentYearEl = document.querySelector(".year");
 const year = new Date().getFullYear();
 currentYearEl.innerHTML = year;
-
-const obs = new IntersectionObserver(
-  function (entries) {
-    const ent = entries[0];
-    if (!ent.isIntersecting) {
-      document.body.classList.add("sticky");
-    }
-  },
-  {
-    root: null,
-    threshold: 0,
-    rootMargin: "25px",
-  }
-);
-obs.observe(header);
