@@ -102,7 +102,7 @@ body {
 /*==================== */
 .section-cards {
   max-width: 150rem;
-  margin: 3.2rem 32rem 6.4rem 4.8rem;
+  margin: 3.2rem 32rem 9.6rem 4.8rem;
 
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -152,7 +152,7 @@ body {
       rgba(52, 58, 64, 0.05),
       rgba(52, 58, 64, 0.15)
     ),
-    url("../images/king.jpg");
+    url("/images/king.jpg");
   background-position: 25% 20%;
 }
 
@@ -162,7 +162,7 @@ body {
       rgba(52, 58, 64, 0.05),
       rgba(52, 58, 64, 0.15)
     ),
-    url("../images/queen.png");
+    url("/images/queen.png");
   background-position: 25% 20%;
 }
 
@@ -231,4 +231,35 @@ body {
 
 .photo-box:hover::before {
   opacity: 1;
+}
+
+/* =================== */
+/* === Footer === */
+/*==================== */
+.container-footer {
+  /* max-width: 150rem;
+  margin: 3.2rem 32rem 6.4rem 4.8rem; */
+  background-color: #edeef5;
+}
+
+.nav-item a {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #233580;
+}
+
+.nav-item a:hover {
+  text-decoration: underline;
+  color: #182458;
+}
+
+footer p {
+  color: #5b7084;
+  font-size: 1.4rem;
+}
+
+.footer-img {
+  display: block;
+  margin: 2.4rem auto 4.8rem auto;
+  height: 8.4rem;
 }

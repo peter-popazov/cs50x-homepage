@@ -89,6 +89,17 @@
   .btn {
     display: none;
   }
+  
+  /* articles */
+  .grid-article {
+    grid-template-columns: 1fr;
+  }
+
+  .nav-chapter-links {
+    border: #233580 1px solid;
+    padding: 1.2rem;
+    margin-bottom: 3.6rem;
+  }
 }
 
 /* 500px */
