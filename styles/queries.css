@@ -87,9 +87,9 @@
   }
 
   .btn {
-    display: none;
+    display: none !important;
   }
-  
+
   /* articles */
   .grid-article {
     grid-template-columns: 1fr;
