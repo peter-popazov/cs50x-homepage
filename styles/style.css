@@ -104,12 +104,13 @@ body {
   height: 8rem;
   padding-top: 0;
   padding-bottom: 0;
-  background-color: rgba(237, 238, 245, 0.8);
+  background-color: rgba(237, 238, 245, 0.85);
   box-shadow: 0 1.2rem 3.2rem 0 rgba(233, 236, 239, 0.3);
   z-index: 9999;
 }
 
-.sticky .section-cards {
+.sticky .section-cards,
+.sticky .container-middle {
   margin-top: 11.2rem;
 }
 

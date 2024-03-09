@@ -29,7 +29,7 @@
 }
 
 /* 800px */
-@media (max-width: 48em) {
+@media (max-width: 55em) {
   /* mobile menu */
   .btn-mobile-nav {
     display: block;
